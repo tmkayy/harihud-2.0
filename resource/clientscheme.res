@@ -3651,6 +3651,229 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		//icon font
+		"TF2Icons8"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons10"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons12"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons14"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons16"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons18"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons20"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons22"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons24"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Icons26"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons28"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons30"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons32"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons34"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons36"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"36"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons38"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"TF2Icons40"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons42"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons44"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Icons6"
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"46"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 	}
 	
 	//These are the fonts i use in my HUD

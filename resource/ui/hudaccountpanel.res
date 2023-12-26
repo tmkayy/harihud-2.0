@@ -8,7 +8,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"ahud16"
+		"delta_item_font"		"TF2Secondary20"
 	}
 	
 	"AccountBG"
@@ -41,7 +41,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"white_hari"
+		"iconColor"		"TanLight"
 	}
 	
 	"AccountValue"
@@ -49,7 +49,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"20"
-		"ypos"			"111"
+		"ypos"			"109"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"
@@ -62,12 +62,12 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ahud20"
-		"fgcolor_override"		"white_hari"
+		"font"			"TF2Secondary24"
+		"fgcolor_override"		"TanLight"
 	}
 	"MetalBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MetalBG"
 		"xpos"			"15"
 		"ypos"			"113"
@@ -76,5 +76,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"black_bg_hari"
+		"bgcolor_override"		"black_bg_hari"
+		"PaintBackgroundType"    "2"
+	}
 }
