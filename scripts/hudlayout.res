@@ -276,36 +276,38 @@
 		"priority"	"35"
 	}
 	
+	"BuildingAnchor"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"BuildingAnchor"
+		"xpos"										"-13"
+		"ypos"										"125"
+		"zpos"										"0"
+		"wide"										"100"
+		"tall"										"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"0"
+	}
+
 	BuildingStatus_Spy
 	{
-		"fieldName" "BuildingStatus_Spy"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
-		"wide"		"640"
-		"tall"		"480"
-		
-		"PaintBackgroundType"	"2"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
+
+		"pin_to_sibling"							"BuildingAnchor"
 	}
 	
 	BuildingStatus_Engineer
 	{
-		"fieldName" "BuildingStatus_Engineer"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
-		"wide"		"640"
-		"tall"		"480"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"480"
 		
-		"PaintBackgroundType"	"2"
+		"pin_to_sibling"							"BuildingAnchor"
 	}
 	
 	HudMannVsMachineStatus
@@ -949,38 +951,29 @@
 	
 	"HudMenuEngyBuild"
 	{
-		"fieldName" 	"HudMenuEngyBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		"xpos"										"5"
+		"ypos"										"c-117"
+		"zpos"										"20"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	
 	"HudMenuEngyDestroy"
 	{
-		"fieldName" 	"HudMenuEngyDestroy"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		"xpos"										"5"
+		"ypos"										"c-117"
+		"zpos"										"20"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"fieldName" 	"HudEurekaEffectTeleportMenu"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		"xpos"										"5"
+		"ypos"										"c-117"
+		"zpos"										"20"
+		"wide"										"f0"
+		"tall"										"480"
 	}
 	
 	"HudMenuSpyDisguise"

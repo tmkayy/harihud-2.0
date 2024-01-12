@@ -26,6 +26,8 @@ Scheme
 		"white_hari"		"255 255 255 255"
 		"black_hari"		"0 0 0 255"
 		"green_hari"		"5 245 93 255"
+		"green_mid_hari"    "0 158 96 255"
+		"green_dark_hari"		"1 50 32 255"
 		"yellow_hari"		"250 234 57 255"
 		"purple_full_hari"	"35 0 52 255"
 		"black_bg_hari"		"0 0 0 190"
@@ -39,6 +41,7 @@ Scheme
 		"sakura_blue_hari"		"178 180 225 255"
 		"sakura_red_hari"		"214 180 214 255"
 		"ahudWhite"				"242 242 242 255"
+		"orange_hari"				"255 165 0 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

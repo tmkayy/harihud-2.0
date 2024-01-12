@@ -4,7 +4,7 @@
 	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
-		"font"										"TF2Secondary8"
+		"font"										"Size 9"
 		"fgcolor" 									"White"
 		"xpos"										"2"
 		"ypos"										"1"

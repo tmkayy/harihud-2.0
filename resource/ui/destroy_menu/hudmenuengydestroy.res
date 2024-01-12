@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/HudMenuEngyBuild.res"
+"Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
 	"CancelLabel"
 	{	
@@ -25,196 +25,147 @@
 	
 	"active_item_1"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_1"
 		"xpos"										"77"
 		"ypos"										"10"
 		"zpos"										"1"
 		"wide"										"34"
-		"tall"										"32"
-		"visible"									"1"
+		"tall"										"34"
+		"visible"									"0"
 	}	
 	
 	"active_item_2"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_2"
 		"xpos"										"77"
 		"ypos"										"42"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"1"
+		"visible"									"0"
 	}	
 	
 	"active_item_3"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_3"
 		"xpos"										"77"
 		"ypos"										"74"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"1"
+		"visible"									"0"
 	}	
 	
 	"active_item_4"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"active_item_4"
 		"xpos"										"77"
 		"ypos"										"106"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
+		"visible"									"0"
+	}
+	
+	"inactive_item_1"
+	{
+		"ControlName"								"CEngyDestroyMenuItem"
+		"fieldName"									"inactive_item_1"
+		"xpos"										"77"
+		"ypos"										"10"
+		"zpos"										"1"
+		"wide"										"34"
+		"tall"										"34"
 		"visible"									"1"
-	}
-	
-	"already_built_item_1"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_1"
-		"xpos"										"77"
-		"ypos"										"10"
-		"zpos"										"1"
-		"wide"										"34"
-		"tall"										"34"
-		"visible"									"0"
 	}	
 	
-	"already_built_item_2"
+	"inactive_item_2"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_2"
+		"ControlName"								"CEngyDestroyMenuItem"
+		"fieldName"									"inactive_item_2"
 		"xpos"										"77"
 		"ypos"										"42"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"0"
+		"visible"									"1"
 	}	
 	
-	"already_built_item_3"
+	"inactive_item_3"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_3"
+		"ControlName"								"CEngyDestroyMenuItem"
+		"fieldName"									"inactive_item_3"
 		"xpos"										"77"
 		"ypos"										"74"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"0"
+		"visible"									"1"
 	}	
 	
-	"already_built_item_4"
+	"inactive_item_4"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_4"
+		"ControlName"								"CEngyDestroyMenuItem"
+		"fieldName"									"inactive_item_4"
 		"xpos"										"77"
 		"ypos"										"106"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"0"
-	}
-	
-	"cant_afford_item_1"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_1"
-		"xpos"										"77"
-		"ypos"										"10"
-		"zpos"										"1"
-		"wide"										"34"
-		"tall"										"34"
-		"visible"									"0"
+		"visible"									"1"
 	}	
-	
-	"cant_afford_item_2"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_2"
-		"xpos"										"77"
-		"ypos"										"42"
-		"zpos"										"1"
-		"wide"										"34"
-		"tall"										"34"
-		"visible"									"0"
-	}	
-	
-	"cant_afford_item_3"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_3"
-		"xpos"										"77"
-		"ypos"										"74"
-		"zpos"										"1"
-		"wide"										"34"
-		"tall"										"34"
-		"visible"									"0"
-	}	
-	
-	"cant_afford_item_4"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_4"
-		"xpos"										"77"
-		"ypos"										"106"
-		"zpos"										"1"
-		"wide"										"34"
-		"tall"										"34"
-		"visible"									"0"
-	}
 
 	"unavailable_item_1"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_1"
 		"xpos"										"77"
 		"ypos"										"10"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"0"
+		"visible"									"1"
 	}	
 	
 	"unavailable_item_2"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_2"
 		"xpos"										"77"
 		"ypos"										"42"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"0"
+		"visible"									"1"
 	}	
 	
 	"unavailable_item_3"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_3"
 		"xpos"										"77"
 		"ypos"										"74"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"0"
+		"visible"									"1"
 	}	
 	
 	"unavailable_item_4"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"CEngyDestroyMenuItem"
 		"fieldName"									"unavailable_item_4"
 		"xpos"										"77"
 		"ypos"										"106"
 		"zpos"										"1"
 		"wide"										"34"
 		"tall"										"34"
-		"visible"									"0"
+		"visible"									"1"
 	}
-	
 	
 	
 	//USELESS
@@ -224,6 +175,7 @@
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
 	}
+	
 	"TitleLabel"
 	{	
 		"ControlName"								"CExLabel"
@@ -236,16 +188,10 @@
 		"fieldName"									"Divider"
 		"xpos"										"9999"
 	}
-	"BuildIcon"	
+	"DestroyIcon"	
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIcon"
+		"fieldName"									"DestroyIcon"
 		"xpos"										"9999"
 	}
-	"BuildIconShadow"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIconShadow"
-		"xpos"										"9999"
-	}	
 }
