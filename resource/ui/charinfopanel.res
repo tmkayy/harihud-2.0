@@ -13,7 +13,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		"settitlebarvisible"				"0"
+		"settitlebarvisible"				"1"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"Blank"
 		"infocus_bgcolor_override"			"Blank"
@@ -86,7 +86,7 @@
 		"zpos"								"0"
 		"wide"								"p1.02"
 		"tall"								"50"
-		"visible"							"1"
+		"visible"							"0"
 		"enabled"							"1"
 		"border"							"MainMenuBGBorder"
 	}
@@ -114,13 +114,13 @@
 		{
 			"textinsetx"					"10"
 			"textinsety"					"0"
-			"font"							"TF2Secondary10"
+			"font"							"TF2Secondary16"
 			"selectedcolor"					"TanLight"
 			"unselectedcolor"				"TanLight"	
 			"defaultBgColor_override"		"Blank"
 			"paintbackground"				"0"
 			"activeborder_override"			"Select"
-			"normalborder_override" 		"Black"	
+			"normalborder_override" 		"black_bright_hari"	
 		}
 	}
 	
@@ -128,7 +128,7 @@
 	{
 		"ControlName"						"CExButton"
 		"fieldName"							"BackButton"
-		"xpos"								"5"
+		"xpos"								"c0"
 		"ypos"								"r26"
 		"zpos"								"2"
 		"wide"								"70"
@@ -161,41 +161,6 @@
 		
 	}
 	
-	"CloseButton"
-	{
-		"ControlName"						"CExButton"
-		"fieldName"							"CloseButton"
-		"xpos"								"r75"
-		"ypos"								"r26"
-		"zpos"								"2"
-		"wide"								"70"
-		"tall"								"20"
-		"autoResize"						"0"
-		"pinCorner"							"3"
-		"visible"							"1"
-		"enabled"							"1"
-		"tabPosition"						"0"
-		"labelText"							"Close (&E)"
-		"font"								"f12"
-		"textAlignment"						"center"
-		"AllCaps"							"1"
-		"dulltext"							"0"
-		"brighttext"						"0"
-		"default"							"0"
-		"Command"							"close"
-		
-		"border_default"	 	 	 		"noborder"
-		"border_armed"		 	 	 		"noborder"
-
-		"paintbackground"	 	 	 		"0"				
-		
-		"sound_depressed"					"UI/buttonclick.wav"
-		"sound_released"					"UI/buttonclickrelease.wav"
-		
-		"defaultFgColor_override" 			"TanLight"
-		"armedFgColor_override" 			"TanLightSelect"
-		"depressedFgColor_override" 		"TanLightSelect"	
-	}
 	
 	"NotificationsPresentPanel"
 	{

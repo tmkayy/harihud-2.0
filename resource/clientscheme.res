@@ -3432,6 +3432,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		classicon100
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"100"
+				"antialias" "1"
+			}
+		}
 		//optivex font
 		"TF2Secondary8"
 		{
