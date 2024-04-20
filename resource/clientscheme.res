@@ -3887,8 +3887,229 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		//joffre
+		"jicon8"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon10"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon12"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon14"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"jicon16"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"jicon18"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon20"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon22"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"22"
+				"weight"	"200"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}		
+		"jicon24"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon26"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon28"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon30"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon32"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon34"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon36"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"36"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon38"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		
+		"jicon40"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon42"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon44"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"jicon46"
+		{
+			"1"
+			{
+				"name"		"JofreIconsRe"
+				"tall"		"46"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 	}
-	
 	//These are the fonts i use in my HUD
 
 
@@ -6743,6 +6964,11 @@ Scheme
 		{
 			"font" "resource/fonts/Quicksand-Light.ttf"
 			"name" "Quicksand Light"
+		}
+		"16" 
+		{
+			"font" "resource/fonts/JofreIconsMaster.ttf"
+			"name" "JofreIconsRe"
 		}
 	}
 }
