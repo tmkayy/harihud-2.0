@@ -69,11 +69,11 @@
 		"fieldName"							"TopTanLightBar"
 		"xpos"								"-5"
 		"ypos"								"-5"
-		"zpos"								"0"
+		"zpos"								"5"
 		"wide"								"p1.02"
 		"fgcolor_override"					"black_bright_hari"
 		"bgcolor_override"					"black_bright_hari"
-		"tall"								"55"
+		"tall"								"47"
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"MainMenuBGBorder"
@@ -104,7 +104,7 @@
 		"tabwidth"							"240"
 		"tabheight"							"18"
 		"transition_time" 					"0"
-		"yoffset"							"12"
+		"yoffset"							"8"
 		
 		"HeaderLine"
 		{
