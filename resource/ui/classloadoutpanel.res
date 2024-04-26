@@ -310,8 +310,6 @@
 			"text_ypos"			"254"
 			"text_center"		"1"
 			"name_only"			"1"
-			
-
 		}
 
 		"itemoptionpanels_kv" //idk what this is
