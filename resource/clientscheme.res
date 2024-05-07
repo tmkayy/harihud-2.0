@@ -4120,6 +4120,7 @@ Scheme
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
+	// beware ye who enters here
 	Borders
 	{
 		NoBorder
@@ -4392,6 +4393,133 @@ Scheme
 				}
 			}
 		}
+
+		TanLight
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "TanLight"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+
+		Black
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Black"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		
+		Positive
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Positive"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		
+		PositiveSelect
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Positive_2"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}		
+
+		Negative
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Negative"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}	
+
+		NegativeSelect
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Negative_2"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}		
+		
+		Select
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "TanDark"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+
+		TransparentBackground
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"				
+			
+			"image"					"replay/thumbnails/panels/material_transparent"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+
+		TransparentBlackBackground
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"				
+			
+			"image"					"replay/thumbnails/panels/material_transparent_black"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+
+		TransparentBlackBackground2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"				
+			
+			"image"					"replay/thumbnails/panels/material_transparent_black2"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}		
 		
 		CrosshatchedBackground
 		{
@@ -4404,9 +4532,9 @@ Scheme
 		OutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"2"				
 			
-			"image"					"loadout_round_rect_selected"
+			"image"					"replay/thumbnails/panels/material_transparent2"			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4415,9 +4543,9 @@ Scheme
 		OutlinedDullGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"2"			
 			
-			"image"					"loadout_round_rect"
+			"image"					"replay/thumbnails/panels/material_transparent2"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4606,8 +4734,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "black_bright_hari"					
 			
-			"image"					"loadout_rect"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4629,23 +4758,37 @@ Scheme
 		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"2"		
 			
-			"image"					"loadout_rect"
+			"image"					"replay/thumbnails/panels/material_transparent2"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		
 		Econ.Button.Border.Default
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"		
+			
+			"image"					"replay/thumbnails/panels/material_transparent2"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
+		
 		Econ.Button.Border.Armed
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"		
+			
+			"image"					"replay/thumbnails/panels/material_transparent2"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		LoadoutItemMouseOverBorder
@@ -4653,18 +4796,20 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect_mouseover"
+			"image"					"replay/thumbnails/panels/material_transparent"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-		LoadoutItemPopupBorder
+		
+		LoadoutItemPopupBorder //CHANGED - ITEM DESCRIPTION ON HOVER
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "black_bright_hari"					
 			
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -4702,8 +4847,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
-			"image"					"backpack_rect"
+
+			"image"					"replay/thumbnails/panels/material_transparent2"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4714,7 +4859,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_mouseover"
+			"image"					"replay/thumbnails/panels/material_transparent"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4725,7 +4870,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_selected"
+			"image"					"replay/thumbnails/panels/material_transparent"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4735,9 +4880,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Black"
 			
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/panels/material_transparent2"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -4747,9 +4891,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Black"
 			
-			"image"					"backpack_rect_selected"
+			"image"					"replay/thumbnails/panels/material_transparent"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -6013,8 +6156,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "black_bright_hari"					
 
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -6102,8 +6246,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "black_bright_hari"			
 			
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -6113,8 +6258,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "black_bright_hari"					
 			
-			"image"					"button_holder_central_alpha"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -6147,8 +6293,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "black_bright_hari"					
 			
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -6459,8 +6606,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "black_bright_hari"			
 			
-			"image"					"replay/panel_scalable_default"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional

@@ -312,7 +312,7 @@
 			"name_only"			"1"
 		}
 
-		"itemoptionpanels_kv" //idk what this is
+		"itemoptionpanels_kv" //hat style options button
 		{
 			"ControlName"	"CExButton"
 			"xpos"			"1111111"
@@ -321,10 +321,10 @@
 			"wide"			"14"
 			"tall"			"o1"
 			"autoResize"	"0"
-			"font"	"jicon12"
+			"font"	"icon12"
 			"textAlignment"		"center"
 			"centerwrap"	"1"
-			"labeltext"	"o"
+			"labeltext"	"{"
 			"border_default"		"ButtonDefaultLight"
 			"border_armed"			"ButtonHoverLight"
 			"paintborder"	"1"
@@ -333,6 +333,46 @@
 						"defaultBgColor_override" 	"46 43 42 0"
 			"armedBgColor_override" 	"46 43 42 0"
 			"depressedBgColor_override" "46 43 42 0"
+		}
+	}
+	
+	"mouseoveritempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"100"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+		
+		"text_ypos"			"15"
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"15"
+		
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
 		}
 	}
 
