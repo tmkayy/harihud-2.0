@@ -605,8 +605,8 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"			"red_hari"
-			"defaultBgColor_override"		"red_hari"
+			"armedBgColor_override"			"201 98 98 255"
+			"defaultBgColor_override"		"201 98 98 180"
 
 			"FgColor"						"TanLight"
 			"defaultFgColor_override" 		"TanLight"
@@ -685,8 +685,8 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"			"green_hari"
-			"defaultBgColor_override"		"green_hari"
+			"armedBgColor_override"			"120 200 120 255"
+			"defaultBgColor_override"		"120 200 120 200"
 
 			"FgColor"						"TanLight"
 			"defaultFgColor_override" 		"TanLight"
