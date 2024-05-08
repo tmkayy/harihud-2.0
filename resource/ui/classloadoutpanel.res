@@ -187,7 +187,7 @@
 	}	
 	"TauntLoadoutButton"
 	{
-		ControlName					CExButton
+		ControlName					CExImageButton
 		fieldName					"TauntLoadoutButton"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -195,9 +195,13 @@
 		tall							25
 		visible						1
 		enabled						1
+		"tabPosition"		"0"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"default"			"0"
 		
-		labelText					"`"
-		font							"jicon14"
+		labelText					"^"
+		font							"icon16"
 		textAlignment				center
 			sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"	
@@ -206,10 +210,7 @@
 	//	defaultFgColor_override 	"31 34 34 255"
 	//	armedFgColor_override 		"W_BorderArmed"
 		
-		"paintbackground"	"0"
-		"border_default"	"ButtonDefaultLight"
-		"border_armed"		"ButtonDefault"
-		"border_depressed"	"ButtonDefault"
+		"image_drawcolor"			"235 226 202 255"	
 		
 		"pin_to_sibling" "loadout_preset_panel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
@@ -219,36 +220,33 @@
 	}	
 	"CharacterLoadoutButton"
 	{
-		ControlName					CExButton
-		fieldName					"CharacterLoadoutButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"border_default"	"ButtonDefaultLight"
-		"border_armed"		"ButtonDefault"
-		"border_depressed"	"ButtonDefault"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"CharacterLoadoutButton"
+		"labelText"			"P"
+		"font"				"icon16"
+		"textAlignment"		"center"			
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"12"
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"3"
+		"visible"			"1"
+		"enabled"			"1"	
+		"tabPosition"		"0"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"default"			"0"
+		"Command"			"characterloadout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"	
+		
+		"image_drawcolor"			"235 226 202 255"		
 		
 		"pin_to_sibling" "loadout_preset_panel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
-
-		wide							25
-		tall							25
-		visible						1
-		enabled						1
-
-		labeltext					"["
-		font							"jicon14"
-		textAlignment				center
-
-		Command						"characterloadout"
-		
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
-		
-	//	defaultFgColor_override 	"31 34 34 255"
-	//	armedFgColor_override 		"W_BorderArmed"
-		
-		paintbackground				0
 
 	}							
 	"tank"
