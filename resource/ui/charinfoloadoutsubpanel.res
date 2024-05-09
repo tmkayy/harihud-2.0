@@ -1064,7 +1064,7 @@
 		"xpos"							"0"
 		"ypos"							"0"
 		"wide"							"f0"
-		"tall"							"400"
+		"tall"							"f0"
 		"zpos"							"500"
 		"visible"						"0"
 	}
@@ -1076,7 +1076,7 @@
 		"xpos"							"0"
 		"ypos"							"0"
 		"wide"							"f0"
-		"tall"							"400"
+		"tall"							"f0"
 		"zpos"							"500"
 		"visible"						"0"
 	}
@@ -1088,7 +1088,7 @@
 		"ypos"							"0"
 		"zpos"							"2000"
 		"wide"							"f0"
-		"tall"							"f100"
+		"tall"							"420"
 		"visible"						"0"
 		"proportionaltoparent"			"1"
 		"bgcolor_override"				"Blank"
