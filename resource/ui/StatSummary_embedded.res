@@ -2123,7 +2123,7 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"labelText"					"D"
-		"font"						"icon14"
+		"font"						"icon12"
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
