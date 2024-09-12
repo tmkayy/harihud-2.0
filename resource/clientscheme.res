@@ -3206,6 +3206,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"ahud20outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
 		ahud20
 		{
 			"1"
